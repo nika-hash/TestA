@@ -9,6 +9,7 @@ import Products from './routes/SingleProduct'
 import Blog from './routes/Blog'
 import Contact from './routes/Contact'
 import About from './routes/About'
+import Slider from './components/Slider'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       </Routes>
     </Header>
     <Main>
+      <Slider/>
     </Main>
     <Footer/>
     </>
